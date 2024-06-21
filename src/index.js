@@ -123,6 +123,17 @@ async function handleRequest(request) {
     headers: request.headers,
     redirect: "follow",
   });
+
+  // return docs
+if (url.pathname === "/") {
+  return new Response(DOCS, {
+    status: 200,
+    headers: {
+      "content-type": "text/html"
+    }
+  });
+}
+
   return await fetch(newReq);
 }
 
@@ -156,12 +167,3 @@ async function fetchToken(wwwAuthenticate, scope, authorization) {
 }
 
 
-// return docs
-if (url.pathname === "/") {
-  return new Response(DOCS, {
-    status: 200,
-    headers: {
-      "content-type": "text/html"
-    }
-  });
-}
