@@ -12,7 +12,7 @@
 2. modify the link of the above button to your fork url
 3. click the button, you will be redirected to the deploy page
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/ciiiii/cloudflare-docker-proxy)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Twtcer/cloudflare-docker-proxy)
 
 ## Config tutorial
 
@@ -30,11 +30,11 @@
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker.libcuda.so": "https://registry-1.docker.io",
-     "quay.libcuda.so": "https://quay.io",
-     "gcr.libcuda.so": "https://k8s.gcr.io",
-     "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-     "ghcr.libcuda.so": "https://ghcr.io",
+     "docker.landwind.icu": "https://registry-1.docker.io",
+     "quay.landwind.icu": "https://quay.io",
+     "gcr.landwind.icu": "https://k8s.gcr.io",
+     "k8s-gcr.landwind.icu": "https://k8s.gcr.io",
+     "ghcr.landwind.icu": "https://ghcr.io",
    };
    ```
 
