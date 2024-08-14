@@ -30,11 +30,11 @@
    - add more records and modify the config as you need
    ```javascript
    const routes = {
-     "docker.landwind.icu": "https://registry-1.docker.io",
-     "quay.landwind.icu": "https://quay.io",
-     "gcr.landwind.icu": "https://k8s.gcr.io",
-     "k8s-gcr.landwind.icu": "https://k8s.gcr.io",
-     "ghcr.landwind.icu": "https://ghcr.io",
+     "docker.landw.icu": "https://registry-1.docker.io",
+     "quay.landw.icu": "https://quay.io",
+     "gcr.landw.icu": "https://k8s.gcr.io",
+     "k8s-gcr.landw.icu": "https://k8s.gcr.io",
+     "ghcr.landw.icu": "https://ghcr.io",
    };
    ```
 
