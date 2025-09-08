@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.landwind.icu", custom_domain = true },
-#   { pattern = "quay.landwind.icu", custom_domain = true },
-#   { pattern = "gcr.landwind.icu", custom_domain = true },
-#   { pattern = "k8s-gcr.landwind.icu", custom_domain = true },
-#   { pattern = "k8s.landwind.icu", custom_domain = true },
-#   { pattern = "ghcr.landwind.icu", custom_domain = true },
-#   { pattern = "cloudsmith.landwind.icu", custom_domain = true },
+#   { pattern = "docker.landw.top", custom_domain = true },
+#   { pattern = "quay.landw.top", custom_domain = true },
+#   { pattern = "gcr.landw.top", custom_domain = true },
+#   { pattern = "k8s-gcr.landw.top", custom_domain = true },
+#   { pattern = "k8s.landw.top", custom_domain = true },
+#   { pattern = "ghcr.landw.top", custom_domain = true },
+#   { pattern = "cloudsmith.landw.top", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.landwind.icu", custom_domain = true }
+# route = { pattern = "docker-staging.landw.top", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
